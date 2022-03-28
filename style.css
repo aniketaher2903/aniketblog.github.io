@@ -1,0 +1,41 @@
+
+body {
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  color: rgb(61, 55, 55);
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  min-height: 560px;
+  font-size: 150%;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+.postDescription {
+  margin: 30px auto;
+  font-size: 16px;
+}
+
+.postTitle {
+  color: cornflowerblue;
+  margin-bottom: 10px;
+}
+
+.horizontalLine {
+  height: 30px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid rgb(231, 142, 90);
+}
+
+.postImage {
+  max-width: 400px;
+  max-height: 350px;
+  border-radius: 10px;
+  border: 5px solid rgb(238, 18, 11);
+}
